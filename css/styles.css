@@ -125,3 +125,40 @@ main .container {
   font-size: 2rem;
   font-style: normal;
 }
+
+.sub {
+  margin: 2em 0;
+}
+
+.sub .container {
+  padding: 2em;
+  background-color: #3882f6;
+  border-radius: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  
+}
+
+
+.sign-up {
+    height: 2em;
+    width: 6em;
+    background-color:  #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+footer {
+    padding: 2em;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
