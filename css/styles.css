@@ -78,7 +78,7 @@ main .container {
 }
 
 .gallery {
-  margin-top: 2em;
+  margin: 4em 0;
 }
 
 .gallery .container h1 {
@@ -104,3 +104,24 @@ main .container {
   height: 180px;
 }
 
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  padding: 2em;
+  font-size: 36px;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote .container .by {
+  align-self: self-end;
+}
+
+.by span {
+  font-size: 2rem;
+  font-style: normal;
+}
