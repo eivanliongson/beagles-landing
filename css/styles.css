@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 2em 0em;
+    background-color: #1f2937;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+nav a{
+    color: white;
+}
