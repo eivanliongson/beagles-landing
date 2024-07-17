@@ -1,1 +1,1 @@
-# odin-web-landing
+# beagle landing
